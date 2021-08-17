@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+</head>
+
+<body>
+	<script>
+		{
+			//задание 1
+			let celsius = +prompt("Введите температуру по Цельсию:");
+			let fahrenheit = (9 / 5) * celsius + 32;
+			alert("По Фаренгейту " + fahrenheit + " градусов");
+		}
+		{
+			// задание 2
+			let name = "Василий";
+			let admin = name;
+			alert(admin);
+			let user = { nameName: "Иван" };
+			let admins = user; // копируется ссылка
+			alert(admins.nameName);
+		}
+		{
+			//задание 3
+			console.log(1000 + "108"); //1000108, число плюс строка
+		}
+		{
+			//задание 4
+			/*
+			атребуты async и defer помогают не блокировать отрисовку браузером страницы, 
+			и загружать скрипт в фоновом режиме.
+			Главное отличие в порядке загрузки.
+			async, кто загрузится первым, тот и сработает
+			defer, как расположены в документе.
+			*/
+		}
+
+
+	</script>
+</body>
+
+</html>
